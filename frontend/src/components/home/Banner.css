@@ -1,0 +1,31 @@
+.banner h1 P {
+    color: WHITE;
+    
+    
+}
+
+.banner{
+    background-color: #5F6FFF;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    
+   
+}
+
+.banner svg{
+    display: block;
+}
+
+.banner-upper{
+    margin: 0;
+    background-color: white;
+    position: relative; /* Allow absolute positioning inside */
+   
+}
+.banner-upper svg {
+    display: block;
+    width: 100%;
+    position: relative;
+    
+}
