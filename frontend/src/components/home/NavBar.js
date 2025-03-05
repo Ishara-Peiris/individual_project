@@ -1,8 +1,10 @@
 import React from 'react'
 import Button from './Button';
 import './NavBar.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const Navigate = useNavigate();
   return (
     
       <div>
@@ -34,7 +36,7 @@ export default function Navbar() {
           
         </div>
         
-        <Button text="Login"  />
+        <Button onClick={()=> Navigate("/create")} text="Login"  />
         <Button text="Create Account"  />
 
         

@@ -1,0 +1,27 @@
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    border-radius: 20px;
+    background-color: #4c6ef5; /* Adjust color to match your design */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3b5bdb; /* Slightly darker on hover */
+  }
+  
+  input.form-control {
+    background-color: #f0f2ff; /* Light purple tint */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input.form-control:focus {
+    border-color: #4c6ef5;
+    box-shadow: 0 0 5px rgba(76, 110, 245, 0.5);
+  }
+  
